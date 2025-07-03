@@ -5,7 +5,6 @@ import Section_3 from "./Section_3";
 import Section_4 from "./Section_4";
 import Section_5 from "./Section_5";
 import Section_6 from "./Section_6";
-import "./styles/App.scss";
 function App() {
   return (
     <>
