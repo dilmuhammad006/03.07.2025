@@ -1,0 +1,59 @@
+.section_2 {
+  max-width: 1332px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+  margin-bottom: 236px;
+
+  p {
+    &:nth-child(1) {
+      color: #646464;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 18px;
+      margin-bottom: 12px;
+    }
+
+    &:nth-child(2) {
+      color: #212121;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 78px;
+    }
+  }
+
+  .card-wrapper {
+    display: flex;
+    gap: 37px;
+
+    .card {
+      padding: 35px 60px;
+      border-bottom-right-radius: 60px;
+      border-top-left-radius: 60px;
+      box-shadow: 0px 8px 20px 0px #00000024;
+
+      p {
+        &:nth-child(2) {
+          color: #646464;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+        }
+        & :nth-child(1) {
+          color: #212121;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 24px;
+          margin-bottom: 12px;
+        }
+      }
+      &:nth-child(2) {
+        background: #caa892;
+
+        & p {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

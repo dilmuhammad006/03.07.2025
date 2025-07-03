@@ -1,0 +1,68 @@
+.section_6 {
+  max-width: 1332px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+  margin-bottom: 221px;
+
+  p {
+    text-align: center;
+
+    &:nth-child(1) {
+      color: #646464;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    &:nth-child(2) {
+      color: #111111;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 28px;
+    }
+  }
+
+  .card-wrapper {
+    display: flex;
+    gap: 136px;
+
+    .card {
+      img {
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        margin: 50px 0;
+      }
+
+      .button {
+        margin-top: 50px;
+        width: 271px;
+        text-align: center;
+        background: #37806b;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 10px;
+      }
+
+      p {
+        text-align: start;
+        &:nth-child(2) {
+          color: #111111;
+          font-weight: 700;
+          font-size: 30px;
+          line-height: 28px;
+        }
+
+        &:nth-child(3) {
+          color: #646464;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}
